@@ -1,9 +1,11 @@
-# Luhn Checksum Validation and Generation
+# Luhn checksum validate/generate
 
-This utility provides the capability to validate and generate Luhn check digits, commonly used for credit card numbers and identification documents. Operating without external dependencies, it leverages the standard library for all functionality.
+Validate and generate Luhn check digits (cards, IDs) — pure, dependency-free.
+
+Java Luhn Checksum uses only the java standard library; there is no service or dependency to install.
 
 ```
 Luhn.java
 ```
 
-For an illustration of how to utilize this tool, refer to the accompanying test cases adjacent to the source code.
+Run the Java Luhn Checksum test next to the implementation for concrete examples.
