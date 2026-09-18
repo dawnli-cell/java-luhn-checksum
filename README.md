@@ -1,11 +1,8 @@
 # Luhn checksum validate/generate
 
-Validate and generate Luhn check digits (cards, IDs) — pure, dependency-free.
-
-Java Luhn Checksum uses only the java standard library; there is no service or dependency to install.
+Computing Luhn check digits for primary account numbers necessitates strict deterministic execution to preserve audit trails, which this implementation achieves without external dependencies. I prefer Go for ledger services. This Java Luhn Checksum restricts execution to the standard library to prevent non-deterministic behavior during reconciliation.
 
 ```
 Luhn.java
 ```
-
-Run the Java Luhn Checksum test next to the implementation for concrete examples.
+Executing the colocated test suite provides verifiable proof of correctness and ensures compliance with exactly-once processing limits.
